@@ -3,6 +3,10 @@ package de.dhbwka.java.exercise.control;
 import java.text.DecimalFormat;
 import java.util.Arrays;
 
+/**
+ * @author Yannik Schiebelhut
+ *
+ */
 public class TemperatureTable {
 
 	public static void main(String[] args) {

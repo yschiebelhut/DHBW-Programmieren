@@ -4,6 +4,10 @@ import java.util.Arrays;
 
 import de.schiebelhut.misc.InputHelper;
 
+/**
+ * @author Yannik Schiebelhut
+ *
+ */
 public class BubbleSort {
 
 	public static void main(String[] args) {

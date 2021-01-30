@@ -2,6 +2,10 @@ package de.dhbwka.java.exercise.control;
 
 import java.util.Scanner;
 
+/**
+ * @author Yannik Schiebelhut
+ *
+ */
 public class AddUp {
 
 	public static void main(String[] args) {

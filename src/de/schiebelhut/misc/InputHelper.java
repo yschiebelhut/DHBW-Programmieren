@@ -3,6 +3,10 @@ package de.schiebelhut.misc;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * @author Yannik Schiebelhut
+ *
+ */
 public class InputHelper {
 
 

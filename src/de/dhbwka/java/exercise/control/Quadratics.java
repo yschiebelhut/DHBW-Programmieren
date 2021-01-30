@@ -6,6 +6,10 @@ import java.util.Scanner;
 
 import de.schiebelhut.misc.InputHelper;
 
+/**
+ * @author Yannik Schiebelhut
+ *
+ */
 public class Quadratics {
 
 	public static void main(String[] args) {

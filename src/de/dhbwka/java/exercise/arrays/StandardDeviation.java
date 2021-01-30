@@ -2,6 +2,10 @@ package de.dhbwka.java.exercise.arrays;
 
 import java.util.Random;
 
+/**
+ * @author Yannik Schiebelhut
+ *
+ */
 public class StandardDeviation {
 
 	public static void main(String[] args) {

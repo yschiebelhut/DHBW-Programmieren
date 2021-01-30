@@ -2,6 +2,10 @@ package de.dhbwka.java.exercise.operators;
 
 import java.util.Scanner;
 
+/**
+ * @author Yannik Schiebelhut
+ *
+ */
 public class Easter {
 
 	public static void main(String[] args) {

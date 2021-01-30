@@ -1,5 +1,9 @@
 package de.dhbwka.java.exercise.datatypes;
 
+/**
+ * @author Yannik Schiebelhut
+ *
+ */
 public class ShortValue {
 
 	public static void main(String[] args) {

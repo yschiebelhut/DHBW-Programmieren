@@ -1,5 +1,9 @@
 package de.dhbwka.java.exercise.packages;
 
+/**
+ * @author Yannik Schiebelhut
+ *
+ */
 public class HelloWorld {
 
 	public static void main(String[] args) {

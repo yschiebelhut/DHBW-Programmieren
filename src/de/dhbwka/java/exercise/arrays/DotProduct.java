@@ -2,6 +2,10 @@ package de.dhbwka.java.exercise.arrays;
 
 import de.schiebelhut.misc.InputHelper;
 
+/**
+ * @author Yannik Schiebelhut
+ *
+ */
 public class DotProduct {
 
 	public static void main(String[] args) {

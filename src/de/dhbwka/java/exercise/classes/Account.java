@@ -1,5 +1,9 @@
 package de.dhbwka.java.exercise.classes;
 
+/**
+ * @author Yannik Schiebelhut
+ *
+ */
 public class Account {
 
 	private int kontonr;

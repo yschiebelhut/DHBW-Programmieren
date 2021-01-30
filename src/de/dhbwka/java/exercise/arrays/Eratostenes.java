@@ -2,6 +2,10 @@ package de.dhbwka.java.exercise.arrays;
 
 import java.util.Arrays;
 
+/**
+ * @author Yannik Schiebelhut
+ *
+ */
 public class Eratostenes {
 
 	public static void main(String[] args) {

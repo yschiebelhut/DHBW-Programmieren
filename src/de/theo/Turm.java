@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Stack;
 
+/**
+ * @author Fanny-Elisa Feuerstake, Yannik Schiebelhut
+ *
+ */
 public class Turm {
 
 	public static void main(String[] args) {
@@ -12,7 +16,7 @@ public class Turm {
 			bar[i] = new ArrayList<Integer>();
 		}
 
-		int count = 5;
+		int count = 29;
 		
 		for (int i = 1; i <= count; i++) {
 			bar[1].add(i);
@@ -32,15 +36,15 @@ public class Turm {
 	}
 
 	public static void destroy(ArrayList[] pArr, int amount, int from, int to, int buffer) {
-		System.out.println("----------------------");
-		output(pArr);
-		System.out.println("amout: " + amount);
-		System.out.println("from: " + from);
-		System.out.println("to: " + to);
-		System.out.println("buffer: " + buffer);
-		System.out.println("----------------------");
-		System.out.println();
-		System.out.println();
+//		System.out.println("----------------------");
+//		output(pArr);
+//		System.out.println("amout: " + amount);
+//		System.out.println("from: " + from);
+//		System.out.println("to: " + to);
+//		System.out.println("buffer: " + buffer);
+//		System.out.println("----------------------");
+//		System.out.println();
+//		System.out.println();
 		if (amount == 1) {
 			pArr[to].add(0, pArr[from].get(0));
 			pArr[from].remove(0);

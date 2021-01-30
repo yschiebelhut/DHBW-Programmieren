@@ -1,5 +1,9 @@
 package de.dhbwka.java.exercise.datatypes;
 
+/**
+ * @author Yannik Schiebelhut
+ *
+ */
 public class Round {
 
 	public static void main(String[] args) {

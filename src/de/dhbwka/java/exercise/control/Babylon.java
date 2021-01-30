@@ -3,6 +3,10 @@ package de.dhbwka.java.exercise.control;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * @author Yannik Schiebelhut
+ *
+ */
 public class Babylon {
 
 	public static void main(String[] args) {

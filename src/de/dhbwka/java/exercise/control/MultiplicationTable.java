@@ -1,5 +1,9 @@
 package de.dhbwka.java.exercise.control;
 
+/**
+ * @author Yannik Schiebelhut
+ *
+ */
 public class MultiplicationTable {
 
 	public static void main(String[] args) {

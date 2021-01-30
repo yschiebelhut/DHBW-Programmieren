@@ -4,6 +4,10 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
+/**
+ * @author Yannik Schiebelhut
+ *
+ */
 public class NumberGuess {
 
 	public static void main(String[] args) {

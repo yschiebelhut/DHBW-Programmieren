@@ -2,6 +2,10 @@ package de.dhbwka.java.exercise.control;
 
 import java.util.HashMap;
 
+/**
+ * @author Yannik Schiebelhut
+ *
+ */
 public class ShoeSize {
 
 	public static void main(String[] args) {
