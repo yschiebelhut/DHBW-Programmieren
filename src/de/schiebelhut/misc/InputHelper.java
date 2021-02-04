@@ -34,4 +34,12 @@ public class InputHelper {
 		}
 	}
 
+	/**
+	 * @return
+	 */
+	public static String getStringInput() {
+		Scanner sc = new Scanner(System.in);
+		return sc.next();
+	}
+
 }

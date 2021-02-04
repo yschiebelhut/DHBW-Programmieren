@@ -123,7 +123,5 @@ public class Nimmspiel {
 
 	public static void main(String[] args) {
 		Nimmspiel spiel = new Nimmspiel("Peter", "Silie", 25);
-//		System.out.println(spiel);
-//		spiel.spielen();
 	}
 }
