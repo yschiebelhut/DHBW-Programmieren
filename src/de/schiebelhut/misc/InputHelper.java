@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- * @author Yannik Schiebelhut
+ * @author Yannik Schiebelhut, Johannes Peters
  *
  */
 public class InputHelper {
@@ -34,9 +34,6 @@ public class InputHelper {
 		}
 	}
 
-	/**
-	 * @return
-	 */
 	public static String getStringInput() {
 		Scanner sc = new Scanner(System.in);
 		return sc.next();
