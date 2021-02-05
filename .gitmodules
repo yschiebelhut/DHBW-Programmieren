@@ -1,0 +1,3 @@
+[submodule "src/de/schiebelhut/misc"]
+	path = src/de/schiebelhut/misc
+	url = https://github.com/yschiebelhut/InputHelper.git
