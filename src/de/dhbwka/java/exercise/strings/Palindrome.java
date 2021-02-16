@@ -15,15 +15,12 @@ public class Palindrome {
 		System.out.print("Bitte Wort eingeben: ");
 		String input = InputHelper.getStringInput();
 		System.out.println(reverse(input));
-		System.out.printf("%s ist %s Palindrom", input, (input.toLowerCase().equals(reverse(input).toLowerCase()) ? "ein" : "kein"));
+		System.out.printf("%s ist %s Palindrom", input, (input.equalsIgnoreCase(reverse(input)) ? "ein" : "kein"));
 	}
 
 	public static String reverse(String s) {
-		String output = "";
-		for (int i = s.length() - 1; i >= 0; i--) {
-			output += s.charAt(i);
-		}
-		return output;
+		StringBuilder sb = new StringBuilder(s);
+		return sb.reverse().toString();
 	}
 
 }
