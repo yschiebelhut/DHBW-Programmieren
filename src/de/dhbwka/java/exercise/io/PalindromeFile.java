@@ -24,16 +24,17 @@ public class PalindromeFile {
 		System.out.println(reverse(input));
 		String output = String.format("%s ist %s Palindrom", input, (isPalindrome(input)) ? "ein" : "kein");
 		System.out.println(output);
-		
+
 		if (isPalindrome(input)) {
-			try (PrintWriter pr = new PrintWriter(new FileWriter("src/de/dhbwka/java/exercise/io/palindromes.txt", true))) {
+			try (PrintWriter pr = new PrintWriter(
+					new FileWriter("src/de/dhbwka/java/exercise/io/palindromes.txt", true))) {
 				pr.println(output);
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
-		
+
 		try (BufferedReader br = new BufferedReader(new FileReader("src/de/dhbwka/java/exercise/io/palindromes.txt"))) {
 			while (br.ready()) {
 				System.out.println(br.readLine());
@@ -51,7 +52,7 @@ public class PalindromeFile {
 		StringBuilder sb = new StringBuilder(s);
 		return sb.reverse().toString();
 	}
-	
+
 	public static boolean isPalindrome(String s) {
 		return s.equalsIgnoreCase(reverse(s));
 	}

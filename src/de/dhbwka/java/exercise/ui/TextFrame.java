@@ -15,7 +15,7 @@ import javax.swing.JTextArea;
  *
  */
 public class TextFrame extends JFrame {
-	
+
 	public TextFrame(String filename, int width, int height) {
 		try {
 			File f = new File(filename);
@@ -23,18 +23,18 @@ public class TextFrame extends JFrame {
 			System.out.println(f.getName());
 			System.out.println(f.getAbsolutePath());
 			System.out.println(f.exists());
-			
+
 			JTextArea textarea = new JTextArea();
-			
+
 			BufferedReader br = new BufferedReader(new FileReader(f));
-			while(br.ready()) {
-				textarea.setText(textarea.getText()+ br.readLine() + "\n");
+			while (br.ready()) {
+				textarea.setText(textarea.getText() + br.readLine() + "\n");
 			}
-			
+
 			this.add(textarea);
 			this.setSize(width, height);
 			this.setVisible(true);
-		} catch(Exception e) {
+		} catch (Exception e) {
 			System.out.println("error");
 		}
 	}

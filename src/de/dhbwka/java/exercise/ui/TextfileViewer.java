@@ -23,14 +23,15 @@ public class TextfileViewer extends JFrame {
 		JFileChooser fc = new JFileChooser();
 		if (fc.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
 			try {
-				BufferedReader br = new BufferedReader(new FileReader(new File(fc.getSelectedFile().getAbsolutePath())));
+				BufferedReader br = new BufferedReader(
+						new FileReader(new File(fc.getSelectedFile().getAbsolutePath())));
 				this.setTitle(fc.getSelectedFile().getName());
 				JTextArea textarea = new JTextArea();
-				while(br.ready()) {
+				while (br.ready()) {
 					textarea.setText(textarea.getText() + br.readLine() + "\n");
 				}
 				this.add(textarea);
-				
+
 				JScrollPane scrollbar = new JScrollPane(textarea);
 				this.add(scrollbar);
 				this.setSize(500, 150);
@@ -42,7 +43,7 @@ public class TextfileViewer extends JFrame {
 			System.out.println("no selection");
 		}
 	}
-	
+
 	/**
 	 * @param args
 	 */

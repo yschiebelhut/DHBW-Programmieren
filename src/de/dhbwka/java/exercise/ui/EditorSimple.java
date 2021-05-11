@@ -16,12 +16,12 @@ import javax.swing.JTextArea;
  *
  */
 public class EditorSimple extends JFrame {
-	
+
 	public EditorSimple() {
 		this.setTitle("Editor");
-		
+
 		JMenuBar menu = new JMenuBar();
-		
+
 		JMenu file = new JMenu("File");
 		menu.add(file);
 		JMenuItem neu = new JMenuItem("New");
@@ -46,7 +46,7 @@ public class EditorSimple extends JFrame {
 		file.addSeparator();
 		JMenuItem quit = new JMenuItem("Quit");
 		file.add(quit);
-		
+
 		JMenu edit = new JMenu("Edit");
 		menu.add(edit);
 		JMenuItem undo = new JMenuItem("Undo");
@@ -72,12 +72,12 @@ public class EditorSimple extends JFrame {
 		edit.add(replace);
 		JMenuItem gotolocation = new JMenuItem("Go to...");
 		edit.add(gotolocation);
-		
+
 		JTextArea textarea = new JTextArea();
-		
+
 		this.add(menu, BorderLayout.NORTH);
 		this.add(textarea);
-		
+
 		this.setSize(800, 600);
 		this.setVisible(true);
 	}

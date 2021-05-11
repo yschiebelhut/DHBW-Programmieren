@@ -33,10 +33,10 @@ public class Files {
 		} catch (IOException e1) {
 			System.out.println(e1.getMessage());
 		}
-		
+
 		System.out.println(myDir.getAbsolutePath());
 		System.out.println(Arrays.toString(myDir.list()));
-		
+
 		foo1.delete();
 		foo2.delete();
 		foo3.delete();
