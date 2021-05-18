@@ -7,8 +7,7 @@ import java.awt.BorderLayout;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
-import javax.swing.JTextArea;
-import javax.swing.border.Border;
+import javax.swing.JTextField;
 
 /**
  * @author Yannik Schiebelhut
@@ -20,7 +19,9 @@ public class CurrencyCalculator extends JFrame {
 		this.setTitle("Currency Converter");
 		this.setLayout(new BorderLayout(5, 5));
 
-		JTextArea iofield = new JTextArea("Please enter amount to convert!");
+		JTextField iofield = new JTextField("Please enter amount to convert!");
+		iofield.requestFocus();
+		iofield.selectAll();
 
 		JButton etod = new JButton("EUR -> USD");
 		JButton dtoe = new JButton("USD -> EUR");
