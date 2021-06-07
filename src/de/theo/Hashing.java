@@ -46,7 +46,7 @@ public class Hashing {
 		}
 		System.out.println(Arrays.toString(f));
 
-		quickSort(f);
+//		quickSort(f);
 //		for (int i = 0; i < f.length; i++) {
 //			for (int j = 1; j < f.length - i; j++) {
 //				if (f[j].hashCode() < f[j - 1].hashCode()) {
@@ -82,43 +82,43 @@ public class Hashing {
 			if (l.size() > 1) collisions++;
 		}
 
-		System.out.println(Arrays.toString(f));
+//		System.out.println(Arrays.toString(f));
 		System.out.println(map);
 		System.out.println(collisions);
 	}
 
-	public static Figure[] quickSort(Figure[] pArr) {
-		quickSort(pArr, 0, pArr.length);
-		return pArr;
-	}
-
-	public static void quickSort(Figure[] pArr, int low, int high) {
-		if ((high - low) <= 1) // when there is only one element, it's already sorted
-			return;
-		int pivot = pArr[high - 1].hashCode(); // set the pivot to the value of the last index in the range, given by the
-		// parameters
-		int split = low; // set the splitting point to the very first index; variable used to mark the
-		// end of the section containing elements smaller than the pivot
-
-		for (int i = low; i < high - 1; i++) { // rush through each element in the given range
-			// if the current element is smaller than the pivot element, swap it to the end
-			// of the splitting area and increase the latter by one
-			if (pArr[i].hashCode() < pivot) {
-				Figure tmp = pArr[i];
-				pArr[i] = pArr[split];
-				pArr[split] = tmp;
-				split++;
-			}
-		}
-
-		// swap the pivot element to the end of the section of smaller elements than the
-		// pivot
-		Figure tmp = pArr[split];
-		pArr[split] = pArr[high - 1];
-		pArr[high - 1] = tmp;
-
-		// recursion
-		quickSort(pArr, low, split); // call the quick sort on the elements before the pivot
-		quickSort(pArr, ++split, high); // call the quick sort on the elements behind the pivot
-	}
+//	public static Figure[] quickSort(Figure[] pArr) {
+//		quickSort(pArr, 0, pArr.length);
+//		return pArr;
+//	}
+//
+//	public static void quickSort(Figure[] pArr, int low, int high) {
+//		if ((high - low) <= 1) // when there is only one element, it's already sorted
+//			return;
+//		int pivot = pArr[high - 1].hashCode(); // set the pivot to the value of the last index in the range, given by the
+//		// parameters
+//		int split = low; // set the splitting point to the very first index; variable used to mark the
+//		// end of the section containing elements smaller than the pivot
+//
+//		for (int i = low; i < high - 1; i++) { // rush through each element in the given range
+//			// if the current element is smaller than the pivot element, swap it to the end
+//			// of the splitting area and increase the latter by one
+//			if (pArr[i].hashCode() < pivot) {
+//				Figure tmp = pArr[i];
+//				pArr[i] = pArr[split];
+//				pArr[split] = tmp;
+//				split++;
+//			}
+//		}
+//
+//		// swap the pivot element to the end of the section of smaller elements than the
+//		// pivot
+//		Figure tmp = pArr[split];
+//		pArr[split] = pArr[high - 1];
+//		pArr[high - 1] = tmp;
+//
+//		// recursion
+//		quickSort(pArr, low, split); // call the quick sort on the elements before the pivot
+//		quickSort(pArr, ++split, high); // call the quick sort on the elements behind the pivot
+//	}
 }
