@@ -1,3 +1,4 @@
-[submodule "src/de/schiebelhut/misc"]
+[submodule "src/de/schiebelhut/input"]
 	path = src/de/schiebelhut/input
-	url = https://github.com/yschiebelhut/InputHelper.git
+	url = git@github.com:yschiebelhut/InputHelper.git
+	branch = master
