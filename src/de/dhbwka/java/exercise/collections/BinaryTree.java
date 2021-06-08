@@ -22,14 +22,14 @@ public class BinaryTree<T extends Comparable<T>> {
 		}
 		if (x.compareTo(this.value) < 0) {
 			if (left == null) {
-				left = new BinaryTree<T>();
+				left = new BinaryTree<>();
 			}
 			this.left.add(x);
 			return true;
 		}
 		if (x.compareTo(this.value) > 0) {
 			if (right == null) {
-				right = new BinaryTree<T>();
+				right = new BinaryTree<>();
 			}
 			this.right.add(x);
 			return true;
