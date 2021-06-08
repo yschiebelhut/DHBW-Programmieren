@@ -37,7 +37,7 @@ public class BinaryTree<T extends Comparable<T>> {
 		return false;
 	}
 
-	private T getValue() {
+	public T getValue() {
 		return this.value;
 	}
 
