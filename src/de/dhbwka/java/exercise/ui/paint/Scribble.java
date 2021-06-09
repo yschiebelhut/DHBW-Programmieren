@@ -6,6 +6,9 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 
+/**
+ * @author Yannik Schiebelhut
+ */
 public class Scribble extends JFrame implements MouseListener, MouseMotionListener {
 	private int lastX, lastY;
 	Graphics g;

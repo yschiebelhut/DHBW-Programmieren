@@ -8,6 +8,9 @@ public class BinaryTree<T extends Comparable<T>> {
 	private T value;
 	private BinaryTree<T> left, right;
 
+	/**
+	 * @author Yannik Schiebelhut
+	 */
 	public BinaryTree() {
 	}
 

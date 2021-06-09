@@ -5,6 +5,9 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * @author Yannik Schiebelhut
+ */
 public class OwnTest extends JFrame {
 
     private JButton button = new JButton("Click Me!");

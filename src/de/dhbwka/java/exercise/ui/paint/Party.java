@@ -2,6 +2,9 @@ package de.dhbwka.java.exercise.ui.paint;
 
 import java.awt.*;
 
+/**
+ * @author Yannik Schiebelhut
+ */
 public class Party {
 
 	private float percentage;

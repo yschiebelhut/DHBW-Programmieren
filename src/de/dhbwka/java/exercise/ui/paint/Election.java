@@ -4,6 +4,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.HashMap;
 
+/**
+ * @author Yannik Schiebelhut
+ */
 public class Election extends JFrame {
 
 	private final HashMap<String, Party> data = new HashMap<>();

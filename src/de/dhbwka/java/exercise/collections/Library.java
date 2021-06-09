@@ -6,6 +6,9 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Comparator;
 
+/**
+ * @author Yannik Schiebelhut
+ */
 public class Library extends JFrame {
 
 	private final JTextField title = new JTextField();

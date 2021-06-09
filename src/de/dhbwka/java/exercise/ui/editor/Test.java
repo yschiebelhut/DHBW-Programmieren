@@ -2,6 +2,9 @@ package de.dhbwka.java.exercise.ui.editor;
 
 import javax.swing.*;
 
+/**
+ * @author Yannik Schiebelhut
+ */
 public class Test extends JFrame {
     public Test() {
         JButton btn = new JButton("a Button");

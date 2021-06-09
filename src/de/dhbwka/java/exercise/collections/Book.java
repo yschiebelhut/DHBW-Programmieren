@@ -2,6 +2,9 @@ package de.dhbwka.java.exercise.collections;
 
 import java.util.Objects;
 
+/**
+ * @author Yannik Schiebelhut
+ */
 public class Book {
 	private String title;
 	private String author;

@@ -7,6 +7,9 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Random;
 
+/**
+ * @author Yannik Schiebelhut
+ */
 public class Hashing {
 
 	private static int m;

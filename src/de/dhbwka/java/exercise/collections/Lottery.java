@@ -3,6 +3,9 @@ package de.dhbwka.java.exercise.collections;
 import java.util.ArrayList;
 import java.util.Random;
 
+/**
+ * @author Yannik Schiebelhut
+ */
 public class Lottery {
 
 	public static void main(String[] args) {
