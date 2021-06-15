@@ -14,6 +14,19 @@ public class BinaryTree<T extends Comparable<T>> {
 	public BinaryTree() {
 	}
 
+	public static void main(String[] args) {
+		BinaryTree<Integer> tree = new BinaryTree<>();
+		{
+			Random r = new Random();
+			for (int i = 0; i < 10; i++) {
+				int rand = r.nextInt(100);
+				System.out.println(rand);
+				tree.add(rand);
+			}
+		}
+		System.out.println(tree.traverse());
+	}
+
 	public boolean isEmpty() {
 		return this.value == null;
 	}
@@ -46,26 +59,13 @@ public class BinaryTree<T extends Comparable<T>> {
 
 	public List<T> traverse() {
 		List<T> out = new LinkedList<>();
-		if(this.left != null) {
+		if (this.left != null && !this.left.isEmpty()) {
 			out.addAll(left.traverse());
 		}
 		out.add(this.getValue());
-		if(this.right != null) {
+		if (this.right != null && !this.right.isEmpty()) {
 			out.addAll(right.traverse());
 		}
 		return out;
-	}
-
-	public static void main(String[] args) {
-		BinaryTree<Integer> tree = new BinaryTree<>();
-		{
-			Random r = new Random();
-			for (int i = 0; i<10; i++) {
-				int rand = r.nextInt(100);
-				System.out.println(rand);
-				tree.add(rand);
-			}
-		}
-		System.out.println(tree.traverse());
 	}
 }
