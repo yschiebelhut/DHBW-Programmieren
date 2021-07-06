@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+    <Document>
+        <Placemark>
+            <name>Point (0,0)</name>
+            <description>Point (0,0)</description>
+            <Point>
+                <coordinates>8.385401,49.024897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (0,1)</name>
+            <description>Point (0,1)</description>
+            <Point>
+                <coordinates>8.385401,49.074897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (0,2)</name>
+            <description>Point (0,2)</description>
+            <Point>
+                <coordinates>8.385401,49.124897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (0,3)</name>
+            <description>Point (0,3)</description>
+            <Point>
+                <coordinates>8.385401,49.174897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (0,4)</name>
+            <description>Point (0,4)</description>
+            <Point>
+                <coordinates>8.385401,49.224897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (1,0)</name>
+            <description>Point (1,0)</description>
+            <Point>
+                <coordinates>8.435401,49.024897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (1,1)</name>
+            <description>Point (1,1)</description>
+            <Point>
+                <coordinates>8.435401,49.074897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (1,2)</name>
+            <description>Point (1,2)</description>
+            <Point>
+                <coordinates>8.435401,49.124897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (1,3)</name>
+            <description>Point (1,3)</description>
+            <Point>
+                <coordinates>8.435401,49.174897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (1,4)</name>
+            <description>Point (1,4)</description>
+            <Point>
+                <coordinates>8.435401,49.224897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (2,0)</name>
+            <description>Point (2,0)</description>
+            <Point>
+                <coordinates>8.485401,49.024897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (2,1)</name>
+            <description>Point (2,1)</description>
+            <Point>
+                <coordinates>8.485401,49.074897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (2,2)</name>
+            <description>Point (2,2)</description>
+            <Point>
+                <coordinates>8.485401,49.124897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (2,3)</name>
+            <description>Point (2,3)</description>
+            <Point>
+                <coordinates>8.485401,49.174897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (2,4)</name>
+            <description>Point (2,4)</description>
+            <Point>
+                <coordinates>8.485401,49.224897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (3,0)</name>
+            <description>Point (3,0)</description>
+            <Point>
+                <coordinates>8.535401,49.024897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (3,1)</name>
+            <description>Point (3,1)</description>
+            <Point>
+                <coordinates>8.535401,49.074897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (3,2)</name>
+            <description>Point (3,2)</description>
+            <Point>
+                <coordinates>8.535401,49.124897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (3,3)</name>
+            <description>Point (3,3)</description>
+            <Point>
+                <coordinates>8.535401,49.174897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (3,4)</name>
+            <description>Point (3,4)</description>
+            <Point>
+                <coordinates>8.535401,49.224897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (4,0)</name>
+            <description>Point (4,0)</description>
+            <Point>
+                <coordinates>8.585401,49.024897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (4,1)</name>
+            <description>Point (4,1)</description>
+            <Point>
+                <coordinates>8.585401,49.074897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (4,2)</name>
+            <description>Point (4,2)</description>
+            <Point>
+                <coordinates>8.585401,49.124897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (4,3)</name>
+            <description>Point (4,3)</description>
+            <Point>
+                <coordinates>8.585401,49.174897</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point (4,4)</name>
+            <description>Point (4,4)</description>
+            <Point>
+                <coordinates>8.585401,49.224897</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+</kml>
