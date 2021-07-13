@@ -3,15 +3,12 @@ package de.dhbwka.java.exercise.gson.cities;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.net.URLStreamHandler;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 
 /**
@@ -22,18 +19,13 @@ public class Cities {
 
 	public static void main(String[] args) throws MalformedURLException {
 		URL src = new URL("https://www.iai.kit.edu/javavl/data/static/cities.json");
-		try (Reader reader = new InputStreamReader(src.openConnection().getInputStream())){
+		try (Reader reader = new InputStreamReader(src.openConnection().getInputStream())) {
 			Cities results = new Gson().fromJson(reader, Cities.class);
 
 			System.out.println("prior sorting:");
 			System.out.println(new GsonBuilder().setPrettyPrinting().create().toJson(results));
 
-			results.geonames.sort(new Comparator<City>() {
-				@Override
-				public int compare(City o1, City o2) {
-					return o1.population - o2.population;
-				}
-			});
+			results.geonames.sort(Comparator.comparingInt(o -> o.population));
 
 			System.out.println();
 			System.out.println("===========================");
